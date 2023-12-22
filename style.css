@@ -6,11 +6,16 @@ body{
 header{
     background-color: #1F2937;
 }
- nav{
-    margin: 0 auto;
-    padding: 12px;
+.content-container{
     width: 75%;
+    margin: 0 auto;
+}
+ nav{
+
+    padding: 12px;
  }
+
+
 
  ul {
     display: flex;
@@ -23,11 +28,65 @@ header{
 
  .link-container{
     display: flex;
-    gap: 16px;
+
+ }
+
+ .link-container a{
+   font-size: 18px;
+   text-decoration: none;
+   color: #E5E7EB;
+   margin: 0 20px;
+   
 
  }
 
  .logo a{
     font-size: 24px;
     color: #F9FAF8;
+ }
+
+ .hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px;
+
+ }
+.hero-text{
+    flex-grow: 3;
+    width: 500px;
+}
+ .hero-header{
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin-bottom: -10px;
+    color: #F9FAF8;
+ }  
+ .hero-information{
+    font-size: 18px;
+    color: #E5E7EB;
+ }
+
+ .hero-button{
+    height: 25px;
+    width: 100px;
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 5px;
+    color: #F9FAF8;
+ }
+ .image-holder{
+    width: 50%;
+    height: 10%;
+    flex-grow: 1;
+
+ }
+ .image-holder img {
+    max-height: 500px;
+    min-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
  }
