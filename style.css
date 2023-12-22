@@ -9,7 +9,7 @@ header{
     max-height: 1000px;
 }
 .content-container{
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
 }
  nav{
@@ -178,3 +178,15 @@ header{
     border: 2px solid #F9FAF8;
     color: #F9FAF8;
   }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+}
+footer p{
+    text-align: center;
+    color: #F9FAF8
+}
