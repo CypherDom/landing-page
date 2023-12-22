@@ -104,6 +104,7 @@ header{
  }
  .additional-info-container h2{
     margin: -20px;
+    font-size: 30px;
  }
  .additional-info{
     display: flex;
