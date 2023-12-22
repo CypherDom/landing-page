@@ -1,0 +1,1 @@
+Hello! This is my first time making landing page with the basic knowledge I have acquired on the basic css modules.
