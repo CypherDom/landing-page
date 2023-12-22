@@ -99,13 +99,17 @@ header{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid black;
-    height: 50%;
+    padding: 20px;
+    margin: 50px;
+ }
+ .additional-info-container h2{
+    margin: -20px;
  }
  .additional-info{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    min-height: 350px;
     justify-content: space-around;
     gap: 50px;
     margin-top: 100px;
@@ -119,13 +123,14 @@ header{
 
  .quote-container{
     display: flex;
+    height: 400px;
+    background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    height: 50%;
  }
   blockquote{
     font-size: 36px;
-    font-style: light italic;
+    min-width: 200px;
+    font-style: italic;
 
   }
