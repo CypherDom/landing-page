@@ -132,5 +132,49 @@ header{
     font-size: 36px;
     min-width: 200px;
     font-style: italic;
+  }
 
+  .callup-container{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .callup-promotion{
+    min-width: 100px;
+    max-width: 700px;
+  }
+  
+  .callup{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    width: 800px;
+    background-color: #3882F6;
+    height: 150px;
+    padding: 0 50px;
+    border-radius: 5px;
+    color: #F9FAF8;
+
+  }
+    #callup-one{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0px -10px 0px;     
+  }
+  #callup-two{
+    font-size: 18px;
+  }
+  .callup-button{
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    min-width: 100px;
+    background-color: #3882F6;
+    border-radius: 25px;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
   }
